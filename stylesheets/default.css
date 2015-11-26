@@ -1,0 +1,47 @@
+footer{
+	text-align:left;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:red;
+	font-size:120%;
+};
+html{
+	background-color: #C2B18F;
+}
+h3{
+   font-family: futura;
+   color:black;
+   font-size: 20px;
+}
+p{
+	font-family: futura;
+	font-size:16px;
+}
+ul{
+	text-align: right;
+	font-size:20px;
+}
+li{
+	display: inline;
+	font-family:futura;
+}
+img{
+	width:100%;
+	border:3px solid black;
+	border-radius: 5px;
+}
+#line{
+	height:1px;
+	width:100%;
+	background-color: black;
+}
