@@ -22,7 +22,7 @@ font-family:futura;
 }
 
 html{
-	background-color: #F3FFEB;
+	background-color: white;
 }
 h3{
    font-family: futura;
@@ -48,7 +48,7 @@ li{
 }
 img{
 	height:250px;
-	width:100%;
+	width:94%;
 	border:3px solid black;
 	border-radius: 5px;
 	padding:5px;
