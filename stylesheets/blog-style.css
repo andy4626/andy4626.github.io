@@ -16,3 +16,15 @@ p{
 img{
 	border:3px double black;
 }
+a{
+	font-size:110%;
+	text-decoration: none;
+	font-family: futura;
+}
+a:hover{
+	font-size:120%;
+	color:red;
+}
+a:visited{
+	color:black;
+	}
