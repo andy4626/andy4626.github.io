@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Arrays and Hashes</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-style.css">
+</head>
+<body>
+  <h1>Enumerables</h1>
+	<p>
+	To talk about numbers in Ruby, there are a lot of methods involved in this type of object. Let’s learn a few.	
+	</p>
+	<p>
+		The first method that is very important is .map method.  If someone had some experience ruby so far, it is just like .each method.  Let’s say there are numbers from 3 to 6, .map method will access the numbers 3, 4, 5, and 6 and apply the coding that was input for that method.  
+	</p>
+	<p>
+		The second method is .group_by method.  This method is literally same as its method: collecting the results by the answers. This modulo example is pretty much self-explanatory: (1..4).group_by { |x| x%2 }  It will return: {0=>[2,4], 1=>[1, 3]}.  It will basically make a collection of data with same result.  
+
+	</p>
+	<p>
+		The third method is .cycle method and it differs from previous methods because they require an input of how many cycles you want this step to repeat.  Cycle method repeats the coding action in a cycle X many times as stated in the code.  For example, if you want to print the number 5 through 7, 3 times.  I would write (5..7).cycle(3){|x| puts x} 
+	</p>
+	<p>
+		
+The last method is .select method.  It is simply selecting the numbers that I desire.  For example, (1..6).select {|x| x %2==0} will return all the even numbers within the range of 1 to 6.  It literally selects the answers from the numerical range given.
+	</p>
+</body>
+</html>
