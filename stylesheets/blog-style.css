@@ -16,6 +16,7 @@ p{
 img{
 	border:3px double black;
 }
+<<<<<<< HEAD
 a{
 	font-size:110%;
 	text-decoration: none;
@@ -28,3 +29,9 @@ a:hover{
 a:visited{
 	color:black;
 	}
+=======
+.class{
+	width:50%;
+	height:50%;
+}
+>>>>>>> blog-branch
