@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Andrew Kim's Blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<p>
+  <a href="https://www.facebook.com/profile.php?id=5524404"><img class="contacts" src="../imgs/facebook_dark.png"></a>
+  <a href="https://www.linkedin.com/in/andrew-kim-91512891"><img class="contacts" src="../imgs/in_dark.png"></a>
+  <a href="https://www.github.com/andy4626"><img class="contacts" src="../imgs/github_dark.png"></a>
+</p>
+<section>
+    <img class="banner" src="../imgs/andrew_coder.jpg" /style="width:100%; float:center;">
+</section>
+<nav>
+        <ul>
+          <li class="mainbar-btn"><a href="./index.html"><strong>HOME</strong></a></li>
+          <li class="mainbar-btn"><a href="../about/index.html">ABOUT</a></li>
+          <li class="mainbar-btn"><a href="../projects/index.html">PROJECTS</a></li>
+          <li class="mainbar-btn"><a href="../contact/index.html">CONTACT</a></li>
+        </ul>
+      </nav>
+<div id="line"></div>
+
+<article>
+  <br>
+      <h3>Looping in Ruby vs Javascript</h3>
+<p>
+When I was just getting used to Ruby, I was introduced to the world of JavaScript.  One of the first concepts that I was interested in was looping: what are the differences and similarities on how they are written.  So I decided do a little research and write something about it.  There are four type of looping in general: for, while, until, or loop do.  I will iterate through each concepts and show the differences and similarities.
+</p>
+<p>If loops for Ruby.
+The basic syntax is written as: 
+if (condition is true)
+  action_that_you_desire
+end
+
+This if loops will execute the action_that_you_desire until the condition is not met.  Pretty simple, yet setting the condition must be well executed or it will go into an infinite loop. 
+</p>
+<p>
+If loops for JavaScript.
+The basic syntax is written as: 
+if(condition){execute this function}
+
+Javascript will execute the desired function until the condition inside the parenthesis is met.
+</p>
+<p>
+For loops for Ruby
+The basic syntax is written as: 
+i=0
+for i<10
+(execute_this_function)
+i++
+end
+
+Ruby will execute this function ten times, until the variable i becomes 9.  
+</p>
+<p>
+
+for loops for JavaScript
+The basic syntax is written as: 
+for(var i = 0; i < 5; i++){action_that_you_desire}
+
+There are three slots or conditions, that is separated by semi-colons, that are necessary for this for loop to work.  For first slot(var i=0), is setting a counter variable for the loops to work.  The second slot(i<5) is the condition given to the for loop to break out.  The last slot(i++) is incrementation done on the counter.  These three slots don’t need to be all filled out, if the condition is not necessarily needed.  
+</p>
+
+<p>
+While loops for Ruby 
+The basic syntax is written as: 
+while (this_condition)
+execute_this_function
+end
+
+While the condition is met for the while loop, it will run the function until this condition is met false.
+</p>
+<p>
+While loops for Javascript
+The basic syntax is written as: 
+while(condition_is_met){execute_this_function}
+
+Same as the while loops for Ruby but different syntax
+</p>
+<p>
+Until loops for Ruby
+The basic syntax is written as: 
+until (condition is met)
+execute_this_function
+end
+
+So this until loop will execute the function until the condition is met and stop the for loop.  Simple, yet so effective
+
+</p>
+  </article>
+
+<br>
+<div id="line"></div>
+<footer>
+       © 2015 ANDREW KIM. ALL RIGHTS RESERVED
+    </footer>
+</body>
+
+</html>
