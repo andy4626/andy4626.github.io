@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Arrays and Hashes</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-style.css">
+</head>
+<body>
+  <h1>SQL Cheat Sheet</h1>
+	
+<p>SQL stands for structured query language.  It is used to use databases to access and manipulate data.  I am going to write a cheat sheet that covers mostly all of the SQL commands.
+</p>
+<p>
+	***Just a reminder: The '< >' brackets don't need to be typed in the real SQL language but the parenthesis is needed to be typed in. ***
+	</p>
+<p>
+The most important concept that one needs to know is the command ‘SELECT’.  It is selects the column of data from preferred data set.  The first command that you’re going to learn is SELECT*FROM < Table Name >.  This will output the table that you desire. The little star sign (*) is selecting all type of data or columns from the table.  But if you don’t show the whole data but  select only certain data that you want, you can: SELECT < Column List > FROM < Table Name > WHERE < Search Condition >.  This will select a column list from a table with these ‘search condition’.  Simple.
+</p>
+<p>
+Now that we know how make SQL print the table, let’s try to create one table.  Fortunately, the command line is so not different from its literal execution, it’s called CREATE TABLE.  The correct syntax is: CREATE TABLE < Table Name >(Column1 column1.datatype, Column2 column2.datatype, Column3 column3.datatype…)  Just remember, after naming the table, we have to declare its data type in column1.datatype section.  It can be date, integer, text, and many more.  
+</p>
+<p>
+Now that we know how to create a table and how to call table, let’s learn about editing the database.  There are three type of modifications that can be done on the databases: delete, update, and insert.  INSERT inserts data into the table, UPDATE updates data in the table and DELETE deletes data from the table.  Let’s go over the syntax of these three possible modifications.  Insertion can be done by : INSERT INTO < Table Name > (< Column List >) VALUES (< Values >).  Update can be done by : UPDATE < Table Name > SET < Column1 > = < Value1 >, < Column2 >=< Value2 > WHERE < Search Condition >.  Finally, deletion can be done by: DELETE FROM < Table Name > WHERE < Search Condition >.
+</p>
+<p>
+Now that you know how to select desired columns or data and modify each data, let’s see how to group them and set in order.  To set the data in order, the syntax goes: SELECT < Column List > FROM < Table Name > WHERE < Search Condition > ORDER BY < Column List > < Condition > LIMIT < Number >.  This looks complicated but after ORDER BY, you select the desired column with a condition, either ASC or DESC, meaning ascending order or descending order.  And after the word limit, which is not required all the time, you can limit how many data to show.  To group data and use aggregates, the syntax goes: SELECT < Column List >, < Aggregate Function >(< Column Name >) FROM < Table Name > WHERE < Search Condition> GROUP BY < Column List >.  And after the ‘group by’ section, you can name desired column list such as its ID numbers.   The ‘Aggregate Function’ is mathematical functions given by SQL to calculate the database quickly.  Some of the examples of aggregate function are COUNT(*), SUM(), MAX(), MIN(), AVG(), and ROUND((),< decimal place >).  They give the total count, total sum, show maximum data, minimum data, average of the data, and round up fraction numbers to the desired decimal places, respectively. 
+</p>
+<p>
+We have gone over too much stuff up until now right? Just hang on a moment, this is the last material to go over.  We are going to learn how to select data from more than one table.  The syntax goes: SELECT < Column List > FROM  < Table1 > JOIN < Table2 > ON < Table1 >.< Column1 > = < Table2 >.< Column1 >.  The ‘Column List’ is going to grab the desired column from Table 1 and join it to Table 2, with the values < Table1 >.< Column1 > and < Table2 >.< Column2 >.  DO NOT forget the dot in between the table and column names.  
+</p>
+<p>
+So how was it people? It seems like a lot of information to take, but this is it.  Isn’t SQL one of the simplest, yet very effective, database organizing language?  These are just the basic concept of SQL and there are many more complex concepts that is not really necessary, but if you have the basics down, you’ve got nothing to worry about.  Well, thank you for reading my post and hope it helped!
+</p>
+
+</body>
+</html>
