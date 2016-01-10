@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NoSQL</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-style.css">
+</head>
+<body>
+  <h1>NoSQL</h1>
+<p>
+As I was a choosing a topic to write a blog about, I thought to myself, why not choose a topic based on the latest trends and informs people?  For DevBootCamp, I was starting to learn about a new language called SQL, I did a little bit of research myself and came across a type called NoSQL.  It seemed like it is the latest trend in query languages that is used widely across social media related websites such as Google, Facebook, and amazon.com.  NoSQL databases are more capable of scaling  than the traditional relation databases, to accommodate the growth.  In the case of a database, the scalability determines the ability of the database to handle the increase in amount of data or the number of transactions.  Traditional relational databases are not suitable for situations where the database’s capability needs to be upgraded consistently, due to an exponential growth in the amount of workload. NoSQL databases can be suitable for those situations, allowing horizontal scaling of database through partitioning.
+</p>
+<p>
+First to learn about NoSQL, you have to know just a few things about SQL.  SQL, abbreviated for structured query language, is  a type of relational database language.  Relational database language, as proposed by English computer scientist, is a digital database whose organization is based on the relational model of data.  It was the textbook model for database organization for querying and managing the database that organizes data into one or more tables of columns and rows, with a unique key identifying each row.  The unique key, or the primary key, is a type of data that is unique to itself and no one else has the primary key that is identical.  One key things about SQL is that is follows the ACID compliancy which stands for atomicity, consistency, isolation, and duration.  By adhering to this compliancy, relational database guarantee a high level of reliability of the database. 
+</p>
+<p>
+For easy comparisons of SQL and NoSQL, here are some easy-going facts for the non-tech related people.  NoSQL does not require columns to unique values and are totally okay with having null.  It all depends on how you set it up.  This theory of having nullified data is against the ACID guideline which is strictly followed by SQL.  NoSQL is generally much faster because there are less joins.  SQL is reliable because there is a central database computer that has all the data, but in the other hand, NoSQL computers are distributed everywhere because there are just too much database to be controlled.  
+</p>
+<p>
+NoSQL databases, are non-relational database systems that are willing to sacrifice parts of ACID compliancy for performance and horizontal scalability. Horizontal scalability is the ability to increase capacity by connecting multiple hardware or software entities so that they work as a single logical unit.  
+For most NoSQL databases, it is possible to add more nodes to the system to increase the capacity of the database. Most NoSQL databases do not require perfect consistency within the 
+database, which allow them to partition the data over various set of nodes. These NoSQL databases support a concept of ‘eventual consistency’, in which data throughout all database nodes is updated within a very short amount of time. For example, Amazon’s Dynamo is a NoSQL database that automatically supports partitioning of the database, providing an incremental scalability to the system, along with propagation of updates that happen automatically throughout the database asynchronously. Due to their scalability, NoSQL databases are suitable for applications such as web analytics and Big Data research, where the amount of data is big and consistently increasing, and perfect consistency is not required.
+</p>
+<p>
+I, myself, have not worked with NoSQL yet, as a matter of fact, I only worked SQL for about a week now.  Not only did we only scratch the surface of database world, but have a general ideas and concepts of relational databases and non-relational databases.  Hope that my blog post helps you design database queries better and more efficiently.  
+</p>
+<p>
+Sources from:
+1. https://en.wikipedia.org/wiki/Scalability
+2. http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf
+3. http://dataconomy.com/sql-vs-nosql-need-know/
+</p>
+
+</body>
+</html>
