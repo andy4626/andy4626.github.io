@@ -1,63 +1,24 @@
-footer{
-	text-align:left;
-	font-size: 12px;
-}
-a{
-	text-decoration: none;
-}
 a:link{
 	color:black;
 }
 a:visited{
 	color:black;
 }
-a:hover{
-	color:red;
-	font-size:100%;
-}
-h1{
-color:black;
-font-family:futura;
-
-}
-
 html{
 	background-color: #F3FFEB;
 }
-h3{
-   font-family: futura;
-   color:black;
-   font-size: 20px;
-}
-p{
-	font-family: futura;
-	font-size:16px;
-}
-ul{
-	text-align: right;
-	font-size:20px;
-	padding:.7em;
-	height: 1em;
 
+.prof-pic{
+	height:70%;
+	width:70%;
 }
-li{
-	display: inline-block;
-	font-family:futura;
-	padding-left:20px;
-	padding-right:20px;
-}
-img{
-	height:250px;
-	width:80%;
-	border:3px solid black;
-	border-radius: 5px;
-	padding:5px;
-	position:static;
-}
-#line{
-	height:1px;
-	width:100%;
-	background-color: black;
+.jumbotron{
+	background-image: url('../imgs/background_image.jpg');
+	color:white;
+	background-attachment: fixed;
+	min-height: 400px;
+	margin-top: 0px;
+	margin-bottom: 8px;
 }
 
 .mainbar-btn{

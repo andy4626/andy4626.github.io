@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+  <link rel="stylesheet" type="text/css" href='./stylesheets/default.css'>
 </head>
 
 
@@ -42,13 +42,9 @@
 <!--jumbotron-->
 <div class="jumbotron">
   <div class="container text-center">
-    <h3> Andrew's Blog</h3>
-    <p>Hello! Welcome to my blog</p>
-
-    <div class="btn-group">
-      <a href="" class="btn btn-lg btn-default">You came to</a>
-      <a href="" class="btn btn-lg btn-success">My</a>
-      <a href="" class="btn btn-lg btn-info">Blog</a>
+    <div class="col-md-12">
+      <h1>Hi! Welcome to Andrew's Blog</h1>
+      <p>Creative and passionate web developer looking for a challenging environment that promotes growth.  Effective and adaptable in any team, possessing strong interpersonal skills built from diverse educational and professional experiences.  Has extensive experience in building elegant full-stack applications</p>
     </div>
 
   </div><!--end container-->
@@ -57,24 +53,25 @@
 <div class="container">
   <section>
     <div class="page-header" id="about">
-      <h2>About Me<small> That would be Andrew Kim, of course!</small></h2>
+      <h2>About Me</h2>
     </div>
 
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-3">
+        <img src="./imgs/Andrew_fullshot.jpg" class="img-responsive img-thumbnail prof-pic" alt="image">
+      </div>
+      <div class="col-md-9">
           <p>
-            Andrew Kim is soon to be a DevBootCamp graduate and software developer. He made the transition from dentistry when he decided to choose a career that he is truly passionate about.
+            Andrew Kim is a full stack developer and a recent Dev BootCamp graduate. He made the transition from dentistry when he decided to choose a career that he is truly passionate about.
           </p>  
           <p>
             Andrew was born in Flushing, New York but was raised in South Korea until college. He graduated from Syracuse University  with a major in biology and  he obtained his masters in Biomedical Sciences from the University of Medicine and Dentistry in NJ. 
           </p>
           <p>
-            Some of his hobbies are coding and playing basketball. Most importantly, he collects Jordan shoes and loves to share the most unique ones with his friends. He is not only athletic but surprisingly very sensitive - he is a musical prodigy in piano.
+            Some of his hobbies are coding, snowboarding, and playing basketball. Most importantly, he collects Jordan shoes and loves to share the most unique ones with his friends. He is not only athletic but surprisingly very sensitive - he is a musical prodigy in piano.
           </p>
-          <footer>
-            Andrew Kim
-          </footer>
       </div>
+          
     </div> <!--end row-->
   </section>
 </div> <!--end container-->
@@ -83,7 +80,7 @@
 <div class="container" id="blog">
   <section>
     <div class="page-header">
-      <h2>Blog Posts<small> They may be short yet helpful</small></h2>
+      <h2>Blog Posts</h2>
     </div>
 
     <div class="row">
@@ -135,24 +132,23 @@
 
 
  <div id='projects' class='item-box'>
-      <div class='row'>
-        <div class='page-header small-12 small-centered text-center columns box-title'>
-          <h1>Projects</h1>
-          <h6>(Under Construction but there)</h6>
-        </div>
-      </div>
-      <div class='row blogpost-list'>
-        <div class='medium-4 text-center columns blog-post'>
-          <a href='./projects/cheat-sheet.html'>SQL Cheat Sheet</a>
-        </div>
- <!--        <div class='medium-4 text-center columns blog-post'>
-          <a href=''></a>
-        </div>
-        <div class='medium-4 text-center columns blog-post'>
-          <a href=''></a> -->
-        </div>
-      </div>
+  <div class='row'>
+    <div class='page-header small-12 small-centered text-center columns box-title'>
+      <h1>Projects</h1>
     </div>
+  </div>
+  <div class='row blogpost-list'>
+    <div class='medium-4 text-center columns blog-post'>
+      <a href='./projects/cheat-sheet.html'>SQL Cheat Sheet</a>
+    </div>
+    <div class='medium-4 text-center columns blog-post'>
+      <a href="https://github.com/andy4626/walkabout">WalkAbout</a>
+    </div>
+<!--     <div class='medium-4 text-center columns blog-post'>
+      <a href=''></a> -->
+    </div>
+  </div>
+</div>
 
 
 
@@ -190,18 +186,6 @@
    </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
