@@ -4,21 +4,23 @@ a:link{
 a:visited{
 	color:black;
 }
-html{
-	background-color: #F3FFEB;
+.main-header{
+	font-family: 'Apple Chancery';
+	vertical-align: center;
 }
-
 .prof-pic{
 	height:70%;
 	width:70%;
 }
+
 .jumbotron{
-	background-image: url('../imgs/background_image.jpg');
+	background-image: url('../imgs/andydandelion2.jpg');
 	color:white;
 	background-attachment: fixed;
-	min-height: 400px;
-	margin-top: 0px;
-	margin-bottom: 8px;
+	min-height: 524px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
 }
 
 .mainbar-btn{
