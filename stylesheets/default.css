@@ -16,17 +16,20 @@ a:visited{
 	height:70%;
 	width:70%;
 }
-
+.bg-info{
+	width:100%;
+}
 .jumbotron{
-	background-image: url('../imgs/andydandelion2.jpg');
+	background: url('../imgs/andydandelion2.jpg') center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	color: white;
 	background-attachment: fixed;
 	min-height: 524px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover
 }
 
 .mainbar-btn{
