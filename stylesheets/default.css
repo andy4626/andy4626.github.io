@@ -15,7 +15,10 @@ a:visited{
 .prof-pic{
 	height:70%;
 	width:70%;
-
+}
+#about{
+	margin-bottom: 30px;
+	margin-top: -40px;
 }
 .bg-info{
 	width:100%;
