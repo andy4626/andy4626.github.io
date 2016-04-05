@@ -1,9 +1,4 @@
-a:link{
-	color:black;
-}
-a:visited{
-	color:black;
-}
+
 .main-header{
 	font-family: 'Apple Chancery';
 	vertical-align: center;
@@ -26,11 +21,11 @@ a:visited{
 }
 .project{
 	border-style: double;
-	border-width: 5px;
-	width: 480px;
+	border-width: 3px;
 	height: 360px;
 	margin-bottom: 20px;
 }
+
 .jumbotron{
 	background: url('../imgs/andydandelion2.jpg') center center;
 	background-repeat: no-repeat;
