@@ -10,11 +10,12 @@ a:visited{
 }
 .home-button{
 	font-family: arial black;
-
 }
 .prof-pic{
-	height:70%;
-	width:70%;
+	height:25%;
+	width:25%;
+	margin: 0 auto;
+	margin-bottom: 30px;
 }
 #about{
 	margin-bottom: 30px;
@@ -28,6 +29,7 @@ a:visited{
 	border-width: 5px;
 	width: 480px;
 	height: 360px;
+	margin-bottom: 20px;
 }
 .jumbotron{
 	background: url('../imgs/andydandelion2.jpg') center center;
