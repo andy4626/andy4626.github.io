@@ -4,7 +4,7 @@
 	vertical-align: center;
 }
 .home-button{
-	font-family: arial black;
+	font-family: "Arial Black";
 }
 .prof-pic{
 	height:25%;
@@ -25,7 +25,9 @@
 	height: 360px;
 	margin-bottom: 20px;
 }
-
+hr{
+	border-color: white;
+}
 .jumbotron{
 	background: url('../imgs/andydandelion2.jpg') center center;
 	background-repeat: no-repeat;

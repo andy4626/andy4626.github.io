@@ -7,16 +7,35 @@
 </head>
 <body>
   <h1>Ruby Classes</h1>
-		<p>Ruby is an object-oriented programming language.  It is based on concept of ‘objects’ which are data structure containing data in the form of methods.  Ruby lets us create our own classes where we can create custom-made methods with endless possibilities.
+		<p>Ruby is an object-oriented programming language.  It is based on concept of ‘object’ which are data structure containing data in the form of methods.  Ruby lets us allows to add methods to an already loaded class or create our own classes where we can create custom-made methods with endless possibilities.
 		</p>
-		<p>Class can be simply thought of as type of objects that can be oriented upon. Integers and strings are type of classes.  They have different type of methods that can be applied upon for their class only.   They can have common methods like .sort which can sort numbers numerically or the string alphabetically. But they have their own different unique methods.  Strings have .upcase method which turns all the alphabets into upper cases but this method can’t be used in integers because numbers cannot be a lower case or upper case.
- 		</p>
  		<p>Ruby is an interesting programming language because it lets us create our own class and its own methods.  While writing own class and methods, one will come across a concept called instance variable and methods.  Instance variable, which is followed after ‘@‘, are variable that belong to a particular object instance and is not available to methods outside its class. Remember that when writing a Ruby class, its title or name has to be capitalized followed by the word ‘class’.  An easy example of a Ruby class is shown below with an instance variable which can be access throughout all the methods within the class:
 		</p>
 	<div>
-		<img height:50%, height= 200px, src="https://techfoxuk.files.wordpress.com/2015/05/1.png" />
+		<pre style='color:#000000;background:#ffffff;'><span style='color:#800000; font-weight:bold; '>class</span> Person
+attr_reader :<span style='color:#005fd2; '>first_name</span><span style='color:#808030; '>,</span> :<span style='color:#005fd2; '>last_name</span><span style='color:#808030; '>,</span> :<span style='color:#005fd2; '>age</span>
+<span style='color:#800000; font-weight:bold; '>  def</span> initialize(first_name, last_name, age)
+    @first_name <span style='color:#808030; '>=</span> first_name
+    @last_name <span style='color:#808030; '>=</span> last_name
+    @age <span style='color:#808030; '>=</span> age
+<span style='color:#800000; font-weight:bold; '>  end</span>
+
+<span style='color:#800000; font-weight:bold; '>  def</span> full_name
+  <span style='color:#400000; '>  puts</span> <span style='color:#0000e6; '>"</span><span style='color:#000000; background:#ffffe8; '>#{@first_name}</span><span style='color:#0000e6; '> </span><span style='color:#000000; background:#ffffe8; '>#{@last_name}</span><span style='color:#0000e6; '>"</span>
+<span style='color:#800000; font-weight:bold; '>  end</span>
+
+<span style='color:#800000; font-weight:bold; '>end</span>
+
+andrew <span style='color:#808030; '>=</span> Person<span style='color:#808030; '>.</span><span style='color:#800000; font-weight:bold; '>new</span><span style='color:#808030; '>(</span><span style='color:#0000e6; '>'Andrew'</span><span style='color:#808030; '>,</span> <span style='color:#0000e6; '>'Kim'</span><span style='color:#808030; '>,</span> <span style='color:#008c00; '>29</span><span style='color:#808030; '>)</span>
+andrew<span style='color:#808030; '>.</span>full_name
+OUTPUT <span style='color:#808030; '>=</span>> Andrew Kim
+andrew<span style='color:#808030; '>.</span>age
+OUTPUT <span style='color:#808030; '>=</span>> <span style='color:#008c00; '>29</span>
+</pre>
 	</div>
-		<p>As shown above, instance variable was used in initialize method and age method.  And it can only be used within the class it is written in.  It can thought as variable or type of data that can be accessed by every methods within the class.  Remember that it is onl yused within the class. 
+		<p>As shown above, instance variable was used in initialize method and full_name method.  Initialize method is the usual constructor to create new objects. And it can only be used within the class it is written in.  It can thought as variable or type of data that can be accessed by every methods within the class.  Remember that it is only used within the class. 
 		</p>
+		<p>Class can be simply thought of as type of objects that can be oriented upon. Integers and strings are type of classes.  They have different type of methods that can be applied upon for their class only.   They can have common methods like .sort which can sort numbers numerically or the string alphabetically. But they have their own different unique methods.  Strings have .upcase method which turns all the alphabets into upper cases but this method can’t be used in integers because numbers cannot be a lower case or upper case.
+ 		</p>
 </body>
 </html>
