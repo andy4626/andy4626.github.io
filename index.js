@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 height = $('.jumbotron').height();
 $(window).scroll(function() {
-  if( $(this).scrollTop() > height + 60 ) {
+  if( $(this).scrollTop() > height + 30 ) {
     $(".main-nav").addClass("main-nav-scrolled");
   } 
 });//ends nav attachment to top
