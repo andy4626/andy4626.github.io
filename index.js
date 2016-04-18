@@ -25,4 +25,29 @@ $('.down-arrow').on("click", function(){
          			1500);
 });//ends hiding arrow and scrolling down page
 
+
+
+  $(".to-about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top-60
+    }, 1000);
+  });
+
+  $(".to-project").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top-60
+    }, 1000);
+  });
+  $(".to-blog").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#blog").offset().top-60
+    }, 1000);
+  });
+  $(".to-contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1000);
+  });
+
+
 });
